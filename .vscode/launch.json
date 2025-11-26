@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +9,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Yesen/Learning/Projects/C_programming/GV_Algorithmic-Art-Interactive-Worlds/src/algorithms",
-      "program": "d:/Yesen/Learning/Projects/C_programming/GV_Algorithmic-Art-Interactive-Worlds/src/algorithms/build/Debug/outDebug",
+      "cwd": "d:/Yesen/Learning/Projects/C_programming/GV_Algorithmic-Art-Interactive-Worlds/src",
+      "program": "d:/Yesen/Learning/Projects/C_programming/GV_Algorithmic-Art-Interactive-Worlds/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

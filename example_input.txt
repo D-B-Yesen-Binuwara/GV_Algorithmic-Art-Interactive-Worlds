@@ -1,0 +1,34 @@
+Example User Input for Futuristic Cityscape Generator:
+
+=== FUTURISTIC CITYSCAPE GENERATOR ===
+Design your custom futuristic city!
+
+Enter city name: Neo Tokyo
+City size (1=Small, 2=Medium, 3=Large): 2
+Number of buildings (5-20): 15
+Building style (1=Skyscrapers, 2=Towers, 3=Mixed): 3
+
+Generating futuristic city: Neo Tokyo...
+Futuristic city generated with 15 buildings
+
+---
+
+Other Example Inputs:
+
+1. Cyber Metropolis:
+   - City name: Cyber Metropolis
+   - City size: 3 (Large)
+   - Buildings: 20
+   - Style: 1 (All Skyscrapers)
+
+2. Crystal Towers:
+   - City name: Crystal Towers  
+   - City size: 1 (Small)
+   - Buildings: 8
+   - Style: 2 (All Towers)
+
+3. Future Haven:
+   - City name: Future Haven
+   - City size: 2 (Medium)
+   - Buildings: 12
+   - Style: 3 (Mixed)

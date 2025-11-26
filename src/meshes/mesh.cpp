@@ -98,11 +98,13 @@ Mesh makeCircleFan(float cx, float cz, float radius, int segments) {
     verts.push_back(0.5f); verts.push_back(0.5f);
     for (int i=0;i<=segments;i++) {
         float a = (float)i * 2.0f * 3.14159265f / segments;
-        float x = cx + radius * cosf(a);
-        float z = cz + radius * sinf(a);
+        float cos_a = cosf(a);
+        float sin_a = sinf(a);
+        float x = cx + radius * cos_a;
+        float z = cz + radius * sin_a;
         verts.push_back(x); verts.push_back(0.01f); verts.push_back(z);
         verts.push_back(0); verts.push_back(1); verts.push_back(0);
-        verts.push_back((cosf(a)+1.0f)*0.5f); verts.push_back((sinf(a)+1.0f)*0.5f);
+        verts.push_back((cos_a+1.0f)*0.5f); verts.push_back((sin_a+1.0f)*0.5f);
     }
     for (int i=1;i<=segments;i++){
         idx.push_back(0);

@@ -76,12 +76,15 @@ make
 ## 📁 Project Folder Structure
 
 ```
-CityDesigner3/
+GV_FINAL/
 ├─ include/
 │  └─ stb_image.h
 ├─ assets/
 │  ├─ building.jpg
-│  └─ road.jpg
+│  ├─ tower.png
+│  ├─ skyscraper.jpg
+│  ├─ road.jpg
+│  └─ pond.jpg
 ├─ src/
 │  ├─ algorithms/
 │  │  ├─ algorithms.h
@@ -99,8 +102,11 @@ CityDesigner3/
 │  ├─ scene/
 │  │  ├─ city_scene.h
 │  │  └─ city_scene.cpp
-│  └─ main.cpp
-├─ Makefile
+│  ├─ main.cpp
+│  └─ stb_impl.cpp
+├─ bin/
+│  └─ city_designer.exe
+├─ guideline.txt
 └─ README.md
 ```
 
