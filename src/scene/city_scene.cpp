@@ -327,7 +327,6 @@ void CityScene::render(const Shader& shader, const Camera& cam) {
     shader.setVec3("viewPos", cam.position());
 
 
-
     // dark night ground
     glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, -0.501f, 0.0f));
     model = glm::scale(model, glm::vec3((float)gridSize, 1.0f, (float)gridSize));
